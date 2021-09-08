@@ -52,7 +52,29 @@
 									<h2 class="major">Amet lorem</h2>
 									<p>Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar. Vivamus sed feugiat finibus. Duis amet bibendum amet sed. Duis mauris ex, dapibus sed ligula tempus volutpat magna etiam.</p>
 								</div>
-								<script type="text/javascript">
+								<div class="inner">
+									<ul class="grid-icons three connected">
+										<li><span class="icon fa-gem"><span class="label">Lorem</span></span></li>
+										<li><span class="icon solid fa-camera-retro"><span class="label">Ipsum</span></span></li>
+										<li><span class="icon solid fa-cog"><span class="label">Dolor</span></span></li>
+										<li><span class="icon solid fa-paper-plane"><span class="label">Sit</span></span></li>
+										<li><span class="icon solid fa-chart-bar"><span class="label">Amet</span></span></li>
+										<li><span class="icon solid fa-code"><span class="label">Nullam</span></span></li>
+									</ul>
+								</div>
+							</section>
+
+						<!-- Panel (Spotlight) -->
+							<section class="panel spotlight large left">
+								<div class="content span-5">
+									<h2 class="major">Magna amet tempus</h2>
+									<p>Mauris a cursus velit. Nunc lacinia sollicitudin egestas bibendum, magna dui bibendum ex, sagittis commodo enim risus sed magna nulla. Vestibulum ut consequat velit. Curabitur vitae libero lorem. Quisque iaculis porttitor blandit. Nullam quis sagittis maximus. Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar.</p>
+								</div>
+								<div class="image filtered tinted" data-position="top right">
+									<img src="images/pic03.jpg" alt="" />
+								</div>
+							</section>
+						<script type="text/javascript">
   window.onload = function () {
     var chart = new CanvasJS.Chart("chartContainer",
     {
@@ -64,13 +86,15 @@
 
       title: "Year",
       valueFormatString:  "#,##0.##",
-      minimum: 0,
-      maximum: 01
+      minimum: 1960,
+      maximum: 2020
     },
     axisY:{
       title: "Arcsine transformation of prevalence or incidence",
       valueFormatString:  "#,##0.##",
-      prefix : "$"
+      prefix : ""
+      minimum: 0.002,
+      maximum: 0.01
     },
     legend: {
       verticalAlign: "bottom",
@@ -86,11 +110,11 @@
      markerType: "circle",
      dataPoints: [
 
-     { x: 10000, y: 1100 },
-     { x: 11000, y: 1200 },
-     { x: 13000, y: 1250 },
-     { x: 15000, y: 1280 },
-     { x: 18000, y: 1600 },
+     { x: 490, y: 0.002 },
+     { x: 980, y: 0.0005 },
+     { x: 1470, y: 0.0027 },
+     { x: 1960, y: 0.0029 },
+     { x: 1961, y: 0.0028 },
 
      { x: 20000, y: 2200 },
      { x: 20700, y: 2200 },
@@ -154,29 +178,6 @@ chart.render();
 </script>
 <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 <div id="chartContainer" style="height: 300px; width: 100%;"></div>
-
-								<div class="inner">
-									<ul class="grid-icons three connected">
-										<li><span class="icon fa-gem"><span class="label">Lorem</span></span></li>
-										<li><span class="icon solid fa-camera-retro"><span class="label">Ipsum</span></span></li>
-										<li><span class="icon solid fa-cog"><span class="label">Dolor</span></span></li>
-										<li><span class="icon solid fa-paper-plane"><span class="label">Sit</span></span></li>
-										<li><span class="icon solid fa-chart-bar"><span class="label">Amet</span></span></li>
-										<li><span class="icon solid fa-code"><span class="label">Nullam</span></span></li>
-									</ul>
-								</div>
-							</section>
-
-						<!-- Panel (Spotlight) -->
-							<section class="panel spotlight large left">
-								<div class="content span-5">
-									<h2 class="major">Magna amet tempus</h2>
-									<p>Mauris a cursus velit. Nunc lacinia sollicitudin egestas bibendum, magna dui bibendum ex, sagittis commodo enim risus sed magna nulla. Vestibulum ut consequat velit. Curabitur vitae libero lorem. Quisque iaculis porttitor blandit. Nullam quis sagittis maximus. Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar.</p>
-								</div>
-								<div class="image filtered tinted" data-position="top right">
-									<img src="images/pic03.jpg" alt="" />
-								</div>
-							</section>
 
 						<!-- Panel -->
 							<section class="panel">
